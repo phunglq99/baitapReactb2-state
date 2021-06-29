@@ -106,6 +106,7 @@ export default class Select extends Component {
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
+                            width :'100%',
                             height: "370px",
                             position: "relative"
                         }}>
@@ -134,7 +135,7 @@ export default class Select extends Component {
                         }}></div>
                     </div>
                 </div>
-                <div className="row mt-5">
+                <div className="row mt-5 w-100">
                     <div className="card h-100 py-3">
                         <div className="row">
                             {this.renderGlass()},
